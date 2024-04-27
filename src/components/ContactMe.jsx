@@ -19,7 +19,7 @@ const ContactMe = () => {
   };
 
   return (
-    <section className="self-stretch bg-gray-default flex flex-col items-center justify-center py-24 px-20 box-border shrink-0 max-w-full text-center text-17xl text-gray-900 font-body2-normal-all mq750:py-[62px] mq750:px-10 mq750:box-border">
+    <section id="contactme" className="self-stretch bg-gray-default flex flex-col items-center justify-center py-24 px-20 box-border shrink-0 max-w-full text-center text-17xl text-gray-900 font-body2-normal-all mq750:py-[62px] mq750:px-10 mq750:box-border">
       <div className="self-stretch flex flex-col items-center justify-center py-0 px-8 box-border gap-[48px] max-w-full mq750:gap-[24px]">
         <Row3
           skills="Get in touch"

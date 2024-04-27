@@ -28,7 +28,7 @@ const HomeDesktopLight = () => {
         <FrameComponent1 />
         <FrameComponent />
       </section>
-      <section className="self-stretch bg-gray-default flex flex-col items-center justify-center py-24 px-20 box-border shrink-0 max-w-full lg:pt-[62px] lg:pb-[62px] lg:box-border mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:pl-10 mq750:pr-10 mq750:box-border mq1050:pt-10 mq1050:pb-10 mq1050:box-border">
+      <section id="Work" className="self-stretch bg-gray-default flex flex-col items-center justify-center py-24 px-20 box-border shrink-0 max-w-full lg:pt-[62px] lg:pb-[62px] lg:box-border mq450:pt-[26px] mq450:pb-[26px] mq450:box-border mq750:pl-10 mq750:pr-10 mq750:box-border mq1050:pt-10 mq1050:pb-10 mq1050:box-border">
         <div className="self-stretch flex flex-col items-center justify-center py-0 px-8 box-border gap-[48px] max-w-full mq750:gap-[24px]">
           <Row3
             skills="Work"
@@ -40,7 +40,7 @@ const HomeDesktopLight = () => {
           <Row />
           <Row1 />
           <Row2 />
-          
+
         </div>
       </section>
       <ContactMe />

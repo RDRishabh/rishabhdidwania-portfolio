@@ -5,7 +5,7 @@ const FrameComponent = () => {
         <div className="self-stretch overflow-hidden flex flex-row flex-wrap items-start justify-start gap-[48px] max-w-full mq450:gap-[24px]">
           <button className="cursor-pointer [border:none] py-0 pr-1.5 pl-0 bg-[transparent] flex-1 flex flex-col items-start justify-start box-border min-w-[121px]">
             <img
-              className="self-stretch h-12 relative max-w-full overflow-hidden shrink-0 object-cover"
+              className="h-12 relative max-w-full overflow-hidden shrink-0 object-cover"
               alt=""
               src="/blacklogo-2@2x.png"
             />

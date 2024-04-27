@@ -33,28 +33,34 @@ const Hero = () => {
           <div className="self-stretch flex flex-col items-start justify-start">
             <div className="overflow-hidden flex flex-row items-center justify-start gap-[4px]">
               <div className="rounded-lg flex flex-row items-center justify-center p-1.5">
-                <img
-                  className="h-6 w-6 relative overflow-hidden shrink-0"
-                  loading="lazy"
-                  alt=""
-                  src="/icon-2.svg"
-                />
+                <a href="https://www.behance.net/rishabhdidwania">
+                  <img
+                    className="h-6 w-6 relative overflow-hidden shrink-0"
+                    loading="lazy"
+                    alt=""
+                    src="../public/behance.png"
+                  />
+                </a>
               </div>
               <div className="rounded-lg flex flex-row items-center justify-center p-1.5">
-                <img
-                  className="h-6 w-6 relative overflow-hidden shrink-0"
-                  loading="lazy"
-                  alt=""
-                  src="/icon-3.svg"
-                />
+                <a href="https://www.linkedin.com/in/rishabh-didwania/">
+                  <img
+                    className="h-6 w-6 relative overflow-hidden shrink-0"
+                    loading="lazy"
+                    alt=""
+                    src="../public/linkedin.svg"
+                  />
+                </a>
               </div>
               <div className="rounded-lg flex flex-row items-center justify-center p-1.5">
-                <img
-                  className="h-6 w-6 relative overflow-hidden shrink-0"
-                  loading="lazy"
-                  alt=""
-                  src="/icon-4.svg"
-                />
+                <a href="https://www.figma.com/@rishabhdidwania">
+                  <img
+                    className="h-6 w-6 relative overflow-hidden shrink-0"
+                    loading="lazy"
+                    alt=""
+                    src="../public/icon-4.svg"
+                  />
+                </a>
               </div>
             </div>
           </div>
