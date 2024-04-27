@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <section className=" bg-gray-default overflow-hidden flex flex-row items-start justify-start py-24 px-20 box-border max-w-full shrink-0 text-left text-41xl text-gray-900 font-body2-normal-all mq750:py-[62px] mq750:px-10 mq750:box-border">
-      <div className="flex-1 flex flex-row flex-wrap items-start justify-start py-0 px-8 box-border gap-[48px_46px] max-w-full mq750:gap-[23px]">
+    <section className="w-full bg-gray-default overflow-hidden flex flex-row items-start justify-start py-24 px-20 box-border max-w-full shrink-0 text-left text-41xl text-gray-900 font-body2-normal-all mq750:py-[62px] mq750:px-10 mq750:box-border">
+      <div className="flex-1 flex flex-row flex-wrap items-start py-0 px-8 box-border gap-[48px_46px] max-w-full mq750:gap-[23px] justify-center">
         <div className="w-[768px] overflow-hidden shrink-0 flex flex-col items-start justify-center gap-[48px] max-w-[768px] mq450:gap-[24px] mq1050:max-w-full">
           <div className="self-stretch flex flex-col items-start justify-center gap-[8px] max-w-full">
             <h1 className="m-0 h-[72px] relative text-inherit tracking-[-0.02em] leading-[72px] font-bold font-inherit inline-block max-w-full mq450:text-17xl mq450:leading-[43px] mq1050:text-29xl mq1050:leading-[58px]">
@@ -59,7 +59,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1 flex flex-row items-start justify-end py-0.5 px-0 box-border min-w-[384px] max-w-full mq450:min-w-full">
+        <div className="flex flex-row items-start justify-end py-0.5 px-0 box-border min-w-[384px] max-w-full mq450:min-w-full">
           <div className="h-[360px] w-80 relative">
             <div className="absolute top-[40px] left-[40px] bg-gray-200 box-border w-[280px] h-80 overflow-hidden border-[8px] border-solid border-gray-default" />
             <img
