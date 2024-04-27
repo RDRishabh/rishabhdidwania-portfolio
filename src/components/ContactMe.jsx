@@ -71,20 +71,24 @@ const ContactMe = () => {
             <div className="self-stretch flex flex-col items-center justify-center py-0 px-5">
               <div className="overflow-hidden flex flex-row items-center justify-start gap-[4px]">
                 <div className="rounded-lg flex flex-row items-center justify-center p-1.5">
+                  
+                  <a href="https://www.figma.com/@rishabhdidwania">
+                    <img
+                      className="h-6 w-6 relative overflow-hidden shrink-0"
+                      loading="lazy"
+                      alt=""
+                      src="/icon-4.svg"
+                    />
+                  </a>
+                </div>
+                <a href="https://www.linkedin.com/in/rishabh-didwania/">
                   <img
-                    className="h-6 w-6 relative overflow-hidden shrink-0"
+                    className="h-9 w-9 relative min-h-[36px]"
                     loading="lazy"
                     alt=""
-                    src="/icon-4.svg"
-                    href=""
+                    src="/linkedin.svg"
                   />
-                </div>
-                <img
-                  className="h-9 w-9 relative min-h-[36px]"
-                  loading="lazy"
-                  alt=""
-                  src="/linkedin.svg"
-                />
+                </a>
               </div>
             </div>
           </div>
