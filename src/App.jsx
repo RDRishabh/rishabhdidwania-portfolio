@@ -5,6 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
 import HomeDesktopLight from "./pages/HomeDesktopLight";
 
 function App() {
@@ -44,9 +45,14 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<HomeDesktopLight />} />
-    </Routes>
+    <>
+      <ToastContainer />
+      <Routes>
+        <Route path="/" element={<HomeDesktopLight />} />
+      </Routes>
+    </>
+    
+    
   );
 }
 export default App;
