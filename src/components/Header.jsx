@@ -30,9 +30,9 @@ const Header = () => {
           </div>
           <div className="flex flex-row items-start justify-start gap-[16px]">
             <button className="cursor-pointer [border:none] py-1.5 px-4 bg-gray-900 rounded-xl flex flex-row items-start justify-start whitespace-nowrap hover:bg-darkslategray-100">
-              <div className="relative text-base leading-[24px] font-medium font-body2-normal-all text-gray-50 text-left inline-block min-w-[104px]">
+              <a className="relative text-base leading-[24px] font-medium font-body2-normal-all text-gray-50 text-left inline-block min-w-[104px]" href={"../public/pdf/resume.pdf"} download={true}>
                 Download CV
-              </div>
+              </a>
             </button>
           </div>
         </div>
