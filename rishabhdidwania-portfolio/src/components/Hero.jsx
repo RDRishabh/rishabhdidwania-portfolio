@@ -38,7 +38,7 @@ const Hero = () => {
                     className="h-6 w-6 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="/behance.png"
+                    src="/Behance.png"
                   />
                 </a>
               </div>
