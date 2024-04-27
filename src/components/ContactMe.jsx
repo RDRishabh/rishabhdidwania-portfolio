@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Row3 from "./Row3";
 
 const ContactMe = () => {
@@ -8,6 +9,13 @@ const ContactMe = () => {
   const copyNumber = () => {
     navigator.clipboard.writeText("+91-7752865124");
     toast.success(`Phone Number copied to clipboard!`);
+    console.log("Number Copied");
+  };
+
+  const copyEmail = () => {
+    navigator.clipboard.writeText("rishabhdidwania22@gmail.com");
+    toast.success(`E-MAIL copied to clipboard!`);
+    console.log("E-MAIL Copied");
   };
 
   return (
@@ -36,7 +44,7 @@ const ContactMe = () => {
                 className="h-8 w-8 relative overflow-hidden shrink-0"
                 alt=""
                 src="/icon-9.svg"
-                onClick={copyNumber}
+                onClick={copyEmail}
                 style={{ cursor: 'pointer' }}
               />
             </div>

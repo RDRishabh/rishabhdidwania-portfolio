@@ -36,7 +36,7 @@ const Row3 = ({
         </button>
       </div>
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-center py-0 px-5">
-        <div className="w-[576px] relative leading-[28px] inline-block max-w-[576px] mq450:text-base mq450:leading-[22px] mq750:max-w-full">
+        <div className=" relative leading-[28px] inline-block mq450:text-base mq450:leading-[22px] mq750:max-w-full">
           {subheading}
         </div>
       </div>

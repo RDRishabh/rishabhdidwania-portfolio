@@ -37,9 +37,10 @@ const HomeDesktopLight = () => {
             propWidth="unset"
             propMinWidth="35px"
           />
-          <Row2 />
-          <Row1 />
           <Row />
+          <Row1 />
+          <Row2 />
+          
         </div>
       </section>
       <ContactMe />
