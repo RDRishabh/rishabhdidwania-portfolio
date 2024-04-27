@@ -14,7 +14,7 @@ const Row1 = () => {
             className="h-full flex-1 overflow-hidden object-contain absolute left-[0px] top-[9px] w-full [transform:scale(1.047)]"
             loading="lazy"
             alt=""
-            src="../public/CareerDrishti.png"
+            src="/CareerDrishti.png"
           />
         </div>
       </div>

@@ -38,7 +38,7 @@ const Hero = () => {
                     className="h-6 w-6 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="../public/behance.png"
+                    src="/behance.png"
                   />
                 </a>
               </div>
@@ -48,7 +48,7 @@ const Hero = () => {
                     className="h-6 w-6 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="../public/linkedin.svg"
+                    src="/linkedin.svg"
                   />
                 </a>
               </div>
@@ -58,7 +58,7 @@ const Hero = () => {
                     className="h-6 w-6 relative overflow-hidden shrink-0"
                     loading="lazy"
                     alt=""
-                    src="../public/icon-4.svg"
+                    src="/icon-4.svg"
                   />
                 </a>
               </div>
