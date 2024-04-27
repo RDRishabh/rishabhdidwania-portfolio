@@ -76,6 +76,7 @@ const ContactMe = () => {
                     loading="lazy"
                     alt=""
                     src="/icon-4.svg"
+                    href=""
                   />
                 </div>
                 <img
