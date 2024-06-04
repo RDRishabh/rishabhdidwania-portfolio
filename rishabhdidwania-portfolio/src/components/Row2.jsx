@@ -13,7 +13,7 @@ const Row2 = () => {
             src="/Adaye.png"
           />
           </a>
-        </div>
+        </div>  
       </div>
       <Column
         title="Adaye"
