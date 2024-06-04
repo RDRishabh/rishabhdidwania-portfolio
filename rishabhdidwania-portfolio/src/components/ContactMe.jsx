@@ -90,6 +90,16 @@ const ContactMe = () => {
                     />
                   </a>
                 </div>
+                <div className="rounded-lg flex flex-row items-center justify-center p-1.5">
+                  <a href="https://www.behance.net/rishabhdidwania">
+                    <img
+                      className="h-6 w-6 relative overflow-hidden shrink-0"
+                      loading="lazy"
+                      alt=""
+                      src="/Behance.png"
+                    />
+                  </a>
+                </div>
                 <a href="https://www.linkedin.com/in/rishabh-didwania/">
                   <img
                     className="h-9 w-9 relative min-h-[36px]"
