@@ -47,7 +47,7 @@ const Column = ({ title, description,link }) => {
       <div className="self-stretch overflow-hidden flex flex-row items-center justify-start">
         <div className="rounded-lg flex flex-row items-center justify-center p-1.5">
           <a href={link}>
-            <img src="../public/Redirect.png" alt="" />
+            <img src="/Redirect.png" alt="" />
           </a>
         </div>
       </div>
