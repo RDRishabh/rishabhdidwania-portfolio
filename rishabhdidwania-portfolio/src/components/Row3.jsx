@@ -26,7 +26,7 @@ const Row3 = ({
       style={rowStyle}
     >
       <div className="self-stretch overflow-hidden flex flex-col items-center justify-center py-0 px-5">
-        <button className="cursor-pointer [border:none] py-1 px-5 bg-gray-200 rounded-xl flex flex-row items-center justify-center hover:bg-lightgray">
+        <button className="[border:none] py-1 px-5 bg-gray-200 rounded-xl flex flex-row items-center justify-center ">
           <div
             className="relative text-sm leading-[20px] font-medium font-body2-normal-all text-gray-600 text-left inline-block min-w-[35px]"
             style={skillsStyle}

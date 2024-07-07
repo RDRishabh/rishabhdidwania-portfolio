@@ -48,7 +48,7 @@ function App() {
     <>
       <ToastContainer />
       <Routes>
-        <Route path="/" element={<HomeDesktopLight />} />
+        <Route path="/" element={<HomeDesktopLight />} /> 
       </Routes>
     </>
     

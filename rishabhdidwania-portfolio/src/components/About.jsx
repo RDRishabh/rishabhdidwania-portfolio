@@ -3,7 +3,7 @@ const About = () => {
     <section id="about" className="self-stretch bg-gray-50 overflow-hidden flex flex-col items-center justify-start py-24 px-5 box-border gap-[48px] max-w-full shrink-0 text-left text-11xl text-gray-900 font-body2-normal-all mq450:pt-10 mq450:pb-10 mq450:box-border mq750:gap-[24px] mq1050:pt-[62px] mq1050:pb-[62px] mq1050:box-border">
       <div className="w-[1216px] flex flex-col items-start justify-start max-w-full">
         <div className="self-stretch overflow-hidden flex flex-col items-center justify-center py-0 px-5">
-          <button className="cursor-pointer [border:none] py-1 px-5 bg-gray-200 rounded-xl flex flex-row items-center justify-center whitespace-nowrap hover:bg-lightgray">
+          <button className="[border:none] py-1 px-5 bg-gray-200 rounded-xl flex flex-row items-center justify-center whitespace-nowrap ">
             <div  className="relative text-sm leading-[20px] font-medium font-body2-normal-all text-gray-600 text-left inline-block min-w-[65px]">
               About me
             </div>

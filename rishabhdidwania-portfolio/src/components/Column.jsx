@@ -1,6 +1,6 @@
-const Column = ({ title, description,link }) => {
+const Column = ({ title, description,link,button }) => {
   return (
-    <div className="flex-1 rounded-tl-xl rounded-tr-none rounded-br-none rounded-bl-xl overflow-hidden flex flex-col items-center justify-start pt-12 px-12 pb-28 box-border gap-[24px] min-w-[374px] max-w-full text-left text-xl text-gray-900 font-body2-normal-all mq750:pt-[31px] mq750:px-6 mq750:pb-[73px] mq750:box-border mq750:min-w-full">
+    <div className="flex-1 rounded-tl-xl rounded-tr-none rounded-br-none rounded-bl-xl overflow-hidden flex flex-col justify-start pt-12 px-12 pb-28 box-border gap-[24px] min-w-[374px] max-w-full text-left text-xl text-gray-900 font-body2-normal-all mq750:pt-[31px] mq750:px-6 mq750:pb-[73px] mq750:box-border mq750:min-w-full">
       <div className="self-stretch relative leading-[28px] font-semibold overflow-hidden text-ellipsis whitespace-nowrap mq450:text-base mq450:leading-[22px]">
         {title}
       </div>
@@ -51,6 +51,17 @@ const Column = ({ title, description,link }) => {
           </a>
         </div>
       </div>
+
+      {
+        button ? 
+        <div className="flex flex-row items-start justify-start gap-[16px]">
+            <button className="cursor-pointer [border:none] py-1.5 px-4 bg-gray-900 rounded-xl flex flex-row items-start justify-start whitespace-nowrap hover:bg-darkslategray-100">
+              <a className="relative text-base leading-[24px] font-medium font-body2-normal-all text-gray-50 text-left inline-block min-w-[104px]" href={`${button}`} download={false} target="_blank">
+                See Certificate
+              </a>
+            </button>
+          </div> : <div></div>
+      }
     </div>
   );
 };

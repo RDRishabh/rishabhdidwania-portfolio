@@ -7,7 +7,9 @@ const Row1 = () => {
         title="CarrierDrishti.ai"
         description="A website that guides students with help of Artificial Intelligence to choose their career wisely with the help of psychometric tests and analysing the resuts for them."
         link="https://career-drishti-ai.vercel.app/"
+        button="/pdf/FSM_Certificate.pdf"
       />
+          
       <div className="flex-1 rounded-tl-xl rounded-tr-none rounded-br-none rounded-bl-xl bg-gray-50 box-border overflow-hidden flex flex-row items-center justify-center py-12 px-[47px] min-w-[374px] max-w-full border-r-[1px] border-solid border-gray-100 mq750:py-[31px] mq750:px-[23px] mq750:box-border mq750:min-w-full">
         <div className="drop-shadow-md shadow-blue h-96 flex-1 relative rounded-xl max-w-full flex items-center justify-center">
         <a href="https://career-drishti-ai.vercel.app/">
