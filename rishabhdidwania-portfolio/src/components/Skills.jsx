@@ -43,7 +43,7 @@ const Skills = () => {
                 React
               </div>
             </div>
-            <div className="h-[100px] flex flex-col items-center justify-center gap-[8px] min-w-[100px]">
+            {/* <div className="h-[100px] flex flex-col items-center justify-center gap-[8px] min-w-[100px]">
               <img
                 className="w-[64px] flex-1 relative max-h-full overflow-hidden"
                 loading="lazy"
@@ -66,7 +66,7 @@ const Skills = () => {
               </div>
             </div>
 
-            {/* Second set of images */}
+            Second set of images
             <div className=" flex flex-col items-center justify-center gap-[8px] min-w-[100px]">
               <img
                 className="w-[64px] h-16 relative object-contain"
@@ -87,7 +87,7 @@ const Skills = () => {
               <div className="relative leading-[28px] inline-block min-w-[84px]">
                 MongoDB
               </div>
-            </div>
+            </div> */}
             <div className="flex flex-col items-center justify-center gap-[8px] min-w-[100px]">
               <img
                 className="w-16 h-16 relative overflow-hidden shrink-0"

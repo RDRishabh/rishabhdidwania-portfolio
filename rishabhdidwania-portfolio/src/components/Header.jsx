@@ -10,28 +10,22 @@ const Header = () => {
         <h2 className="cursor-pointer m-0 relative text-inherit tracking-[-0.02em] leading-[36px] font-bold font-inherit inline-block min-w-[98px] whitespace-nowrap">{`<RD />`}</h2>
         <div className="flex flex-row items-start justify-start gap-[23.8px] max-w-full text-left text-base text-gray-600">
           <div className="flex flex-col items-start justify-start pt-1.5 px-0 pb-0">
-            <div className="flex flex-row items-start justify-start">
               <div className=" cursor-pointer relative leading-[24px] font-medium inline-block min-w-[47px]"  onClick={() => {document.getElementById('about').scrollIntoView({ behavior: 'smooth' }); }}>
                 About
               </div>
-            </div>
           </div>
           <div className="flex flex-col items-start justify-start pt-1.5 px-0 pb-0">
-            <div className="flex flex-row items-start justify-start">
               <div className=" cursor-pointer relative leading-[24px] font-medium inline-block min-w-[40px]" onClick={() => {document.getElementById('Work').scrollIntoView({ behavior: 'smooth' }); }}>
                 Work
               </div>
-            </div>
           </div>
           <div className="flex flex-col items-start justify-start pt-1.5 px-0 pb-0">
-            <div className="flex flex-row items-start justify-start">
               <div className=" cursor-pointer relative leading-[24px] font-medium inline-block min-w-[62px]" onClick={() => {document.getElementById('contactme').scrollIntoView({ behavior: 'smooth' }); }}>
                 ContactMe
               </div>
-            </div>
           </div>
           <div className="h-[30px] flex flex-col items-start justify-start pt-1.5 px-0 pb-0 box-border">
-            <div className="w-px h-[25px] relative box-border border-r-[1px] border-solid border-gray-100" />
+            <div className="w-px h-[25px] relative box-border border-r-[1px] border-solid border-gray-500" />
           </div>
           <div className="flex flex-row items-start justify-start gap-[16px]">
             <button className="cursor-pointer [border:none] py-1.5 px-4 bg-gray-900 rounded-xl flex flex-row items-start justify-start whitespace-nowrap hover:bg-darkslategray-100">

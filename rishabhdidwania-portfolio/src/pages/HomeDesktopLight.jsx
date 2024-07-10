@@ -3,8 +3,6 @@ import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
 import Row3 from "../components/Row3";
-import FrameComponent1 from "../components/FrameComponent1";
-import FrameComponent from "../components/FrameComponent";
 import Row2 from "../components/Row2";
 import Row1 from "../components/Row1";
 import Row from "../components/Row";
