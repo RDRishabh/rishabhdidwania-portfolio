@@ -1,6 +1,5 @@
 import {Link} from 'react-router-dom';
 import About from './About';
-import FrameComponent1 from './FrameComponent1';
 import ContactMe from './ContactMe';
 
 const Header = () => {
